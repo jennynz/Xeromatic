@@ -16,10 +16,10 @@ namespace Xeromatic.Services
         {
             _creds = new TwitterCredentials
             {
-                ConsumerKey = "Add your ConsumerKey here",
-                ConsumerSecret = "Add your ConsumerSecret here",
-                AccessToken = "Add your AccessToken here",
-                AccessTokenSecret = "Add your AccessTokenSecret here"
+                ConsumerKey = "PI96aIiQUq5Z9kWNYm0bIO7FA",
+                ConsumerSecret = "Dmi1Wk7naZJNi2UepX4526wcfJX3OtQmWL8qRcnFVEv9ikSoaZ",
+                AccessToken = "	718574735320227841-1u4YvqjHOFMnDTKUdgQBdowigoCX3st",
+                AccessTokenSecret = "iKAGeb2UamATnkW0jxnVJ4lvspCmbfKC9MwSfwtTCXn7x"
             };
         }
 
