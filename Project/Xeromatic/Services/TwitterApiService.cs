@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
 using Tweetinvi;
 using Tweetinvi.Core.Credentials;
-using Tweetinvi.Core.Interfaces;
+using Tweet = Xeromatic.Models.Tweet;
+using Xeromatic.Services;
 
 namespace Xeromatic.Services
 {
-    public class TwitterApiService
+    public class TwitterApiService : ITwitterService
     {
         // Get keys from: https://apps.twitter.com
         // Wiki for tweetinvi: https://github.com/linvi/tweetinvi/wiki
@@ -23,13 +24,9 @@ namespace Xeromatic.Services
             };
         }
 
-        public IEnumerable<ITweet> GetTweets()
+        public IEnumerable<Tweet> GetTweets()
         {
-            var tweets = Auth.ExecuteOperationWithCredentials(_creds, () =>
-            {
-                return Timeline.GetHomeTimeline();
-            });
-
+            var tweets = Auth.ExecuteOperationWithCredentials(_creds, () => Timeline.GetUserTimeline("xero", 10)).ToList();
             return tweets;
         }
 
