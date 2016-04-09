@@ -22,3 +22,22 @@ img {
 .panel-default>.panel-heading {
     background: #E8F0F7;
 }
+
+.header-table {
+    width: 100%;
+}
+
+a.nav-link {
+    color: black;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: "Montserrat", "Gotham Narrow SSm A","Gotham Narrow SSm B","gothamnarrow-medium",helvetica,sans-serif;
+    text-transform: uppercase;
+    margin-right: 2em;
+}
+
+a.nav-link:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
