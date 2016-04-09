@@ -2,7 +2,7 @@
 var Tweet = React.createClass({
 	render: function() {
 	    return (
-            <li className="list-group-item">
+            <li className="clearfix list-group-item">
             {this.props.text}
 	        {this.props.children}
 	        </li>
@@ -108,7 +108,7 @@ var App = React.createClass({
 			<div className="container">
                 <table className="header-table"><tbody>
                     <tr>
-                        <td><img src="/Content/UNYouthNZLogo.jpg" /></td>
+                        <td><img src="/Content/UNYouthNZLogo.jpg" href="https://unyouth.org.nz" /></td>
                         <td>
                             <a className="nav-link" href="https://unyouth.org.nz/about">About</a>
                             <a className="nav-link" href="https://unyouth.org.nz/regions">Regions</a>
