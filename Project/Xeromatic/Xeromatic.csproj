@@ -138,8 +138,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\forest.jpg" />
     <Content Include="Content\app.js" />
+    <Content Include="Content\UNYouthNZLogo.jpg" />
     <Content Include="Global.asax" />
+    <Content Include="Content\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

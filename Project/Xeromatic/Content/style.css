@@ -1,0 +1,24 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+    background-color: #5298D3;
+}
+
+li:hover {
+    color: #5298D3;
+}
+
+img {
+    width: 250px;
+}
+
+.panel-title {
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: "Montserrat", "Gotham Narrow SSm A","Gotham Narrow SSm B","gothamnarrow-medium",helvetica,sans-serif;
+    text-transform: uppercase;
+}
+
+.panel-default>.panel-heading {
+    background: #E8F0F7;
+}
